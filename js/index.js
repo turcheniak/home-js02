@@ -1,4 +1,4 @@
-const number = prompt('Введіть число фібоначчі :');
+const n = prompt('Введіть число фібоначчі :');
 
 function fibonachi (n) {
   let a = 1;
@@ -11,4 +11,5 @@ function fibonachi (n) {
   return b;
 }
 
-alert('Число ' + fibonachi() + ' Фібоначчі');
+const result = (fibonachi(n));
+alert('Число ' + fibonachi(n) + ' Фібоначчі');
